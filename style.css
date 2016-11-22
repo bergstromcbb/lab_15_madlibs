@@ -46,18 +46,26 @@ button {
 	width: 30%;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:hover {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
 .input {
 	color: dimgrey;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 
-input[type=text]{ 
 
- }
-
--webkit-input-placeholder {
-	color: green;
-}
 
 .libInput {
 	width: 30%;
@@ -69,5 +77,5 @@ input {
 		height:30px;
      	width:200px;
      	font-size: 18px;
-
+     	margin-bottom: 10px;
 }
