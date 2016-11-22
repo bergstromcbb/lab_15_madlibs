@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="madlibApp">
+<head>
+    <title>Funky MaDLIbs!</title>
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+<h1>
+MadLibs
+</h1>
+    <nav>
+
+    <div class="homewords">
+        <a href="#/form">Enter your words here!</a>
+    </div>
+    
+    <div class="homewords">
+        <a href="#/paragraph">See what it made!</a>
+    </div>
+    <br />
+
+    </nav>
+
+    <div ng-view="">Loading...</div>
+
+   
+
+</body>
+</html>

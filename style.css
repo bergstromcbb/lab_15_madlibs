@@ -1,0 +1,38 @@
+span {
+	color: hotpink;
+	background-color: palegreen;
+	border-radius: 5px;
+}
+
+div {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+body {
+	font-family: 'Sofia', cursive;
+	font-size: 2vw;
+	background-color: lavenderblush;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5vw;
+}
+
+.homewords {
+	text-align: center;
+}
+
+.libInput {
+	text-align: center;
+}
+
+input {
+		background-color: lightpink;
+		height:30px;
+     	width:200px;
+     	font-size: 18px;
+
+}
