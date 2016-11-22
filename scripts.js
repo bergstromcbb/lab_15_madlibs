@@ -10,7 +10,7 @@ app.config(function($routeProvider) {
         controller: "getWords"
     });
     $routeProvider.otherwise({
-        templateUrl: "form.html",
+        templateUrl: "form.html"
         // template: "Alone in the world was a little catdog."
     });
 
@@ -29,31 +29,21 @@ app.factory("madlibStore", function(){
 
 });
 
-
-
 app.controller('addWords', function($scope, madlibStore){
 
   $scope.onclick = function(wordsToAdd){
 
     var madlib = $scope.data;
 
-    // var madlib = { 
-    //     animal: $scope.data.animal,
-    //     direction: $scope.data.direction,
-
-    // };
     madlibStore.setMadlib(madlib);
-
+    
     location.hash = "/paragraph";
 };
-
-
 
 });
 
 app.controller('getWords', function($scope, madlibStore){
   var madlib = madlibStore.getMadlib();
-
 
   $scope.madlib = madlib;
 });
