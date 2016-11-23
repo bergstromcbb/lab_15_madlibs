@@ -10,7 +10,9 @@ app.config(function($routeProvider) {
         controller: "getWords"
     });
     $routeProvider.otherwise({
-        templateUrl: "form.html"
+        templateUrl: "form.html",
+        controller: "addWords"
+
         // template: "Alone in the world was a little catdog."
     });
 
