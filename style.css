@@ -1,7 +1,14 @@
 span {
+	border-style: solid;
+	border-color: cornflowerblue;
+	border-width: 3px;
 	color: hotpink;
-	background-color: palegreen;
+	background-color: lightsteelblue;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
 	border-radius: 5px;
+	margin: 5px;
 }
 
 div {
@@ -22,7 +29,9 @@ body {
 }
 
 .header{
-	font-size: 3vw;
+	font-size: 4vw;
+	margin-bottom: 0;
+	margin-top: 20px;
 }
 
 h1 {
@@ -52,12 +61,12 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: hotpink;
+    color: mediumvioletred;
 }
 
 a:hover {
     text-decoration: none;
-    color: yellowgreen;
+    color: cornflowerblue;
 }
 
 .input {
