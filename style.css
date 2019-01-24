@@ -56,6 +56,9 @@ button {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
+	padding: 15px;
+	font-size: .6em;
+	border-radius: 15px;
 }
 
 .button {
@@ -76,21 +79,18 @@ a:hover {
     color: cornflowerblue;
 }
 
-.input {
-	color: dimgrey;
-	margin-bottom: 10px;
-}
-
 .libInput {
 	width: 30%;
 	text-align: center;
 }
 
 input {
-		background-color: mistyrose;
-		height:30px;
-     	width:200px;
-     	font-size: 18px;
-		 margin-bottom: 10px;
-		text-align: center !important;
+	padding: 10px;
+	color: dimgrey;
+	margin-bottom: 10px;
+	background-color: mistyrose;
+	height:30px;
+	width:200px;
+ 	font-size: 18px;
+	text-align: center !important;
 }
